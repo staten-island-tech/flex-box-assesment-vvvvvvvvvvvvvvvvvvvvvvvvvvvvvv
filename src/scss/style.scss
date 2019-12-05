@@ -4,16 +4,11 @@
     padding: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
+    text-align: center;
   }
 }
 
-body
-.allpotatoes {
-  flex-direction: column;
-}
-.firstpotatoes {
-  justify-content: space-around;
-}
-.thirdpotatoes {
-  justify-content: center;
-}
+#border {
+  width: 50%;
+  }
+
