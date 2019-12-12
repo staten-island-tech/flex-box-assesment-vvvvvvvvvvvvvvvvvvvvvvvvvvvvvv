@@ -10,9 +10,10 @@
 </head>
 
 <body>
-    <header>
-        <img src="/media/Patates.jpg" alt="" style="height: 30rem;">
-        <h1>
+    <header class="potatoheader">
+        <img src="/media/potatoborder.png" alt="" style="width: 118rem; height: 35rem;" class="border">
+        <img src="/media/Patates.jpg" alt="" style="height: 22rem;" class="allthepotatoes">
+        <h1 class="potatofacts">
             In 1995, potato plants were taken into space with the space shuttle Columbia. This marked the first time any
             food was ever grown in space.
             August 19th and October 27th are National Potato Day.
@@ -58,11 +59,15 @@
         </body>
         
         <style>
-            header {
-                background-image: url("/media/potatoborder.png");
-                background-image: width: 10rem;
+            .potatoheader {
                 flex-direction: row;
                 display: flex;
+            }
+            .border {
+                position: relative;
+            }
+            .allthepotatoes {
+                position: absolute;
             }
         
             body 
