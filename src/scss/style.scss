@@ -12,3 +12,73 @@
   flex-direction: row;
 }
 
+.potatoheader {
+  flex-direction: row;
+  display: flex;
+}
+
+.border {
+  position: relative;
+}
+
+.allthepotatoes {
+  position: absolute;
+  margin: 7.5rem;
+  left: -1rem;
+}
+
+.potatofacts {
+  position: absolute;
+  margin: 7rem;
+  left: 32.5rem;
+}
+
+body 
+.allpotatoes {
+  margin: 2rem;
+}
+
+.firstpotatoes {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondpotatoes {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdpotatoes {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.potatomom {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.potatohostelthing{
+  flex-direction: column;
+  display: flex;
+}
+.brokepotatoes {
+  flex-direction: column;
+  display: flex;
+}
+.potatoisland{
+  flex-direction: column;
+    display: flex;
+}
+
+.bottomtitle{
+  text-align: center;
+  font-size: 400%;
+  text-decoration: underline;
+}
